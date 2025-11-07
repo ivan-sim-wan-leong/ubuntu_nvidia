@@ -22,6 +22,7 @@ glxinfo -B | grep -i 'opengl renderer'
 ```
 ### if not nvidia gpu, force to nvidia gpu
 ```
+sudo apt install nvidia-prime
 sudo prime-select nvidia
 ```
 
